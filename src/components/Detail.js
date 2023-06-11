@@ -36,9 +36,8 @@ const Detail = ({ exerciseDetail }) => {
           {name}
         </Typography>
         <Typography sx={{ fontSize: { lg: "24px", xs: "18px" } }} color="#4f4c4c">
-          Exercises keep you strong. {name.toString().toUpperCase()} {` `}
-          is one of the best exercises to target your {target}. It will help you improve your mood
-          and gain energy.
+          {`Exercises keep you strong, and the ${name} is one of the best exercises to target your ${target}.
+          It will help you improve your mood and gain energy.`}
         </Typography>
         {extraDetail?.map((item, index) => (
           <Stack key={`${item.name}-${index}`} direction="row" gap="24px" alignItems="center">
