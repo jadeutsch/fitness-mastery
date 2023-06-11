@@ -4,4 +4,4 @@
 
 Welcome to **Fitness World**. This site will let you search for exercises to ramp up your workouts. Each exercise also details which part of the body is being worked on and includes three related videos. So go and get that pump going for your next workout.
 
-To view the live site, visit []()
+To view the live site, visit [Fitness World](https://fitness-world-gym.netlify.app).
