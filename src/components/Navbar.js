@@ -24,8 +24,8 @@ const Navbar = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3a1212",
-            borderBottom: "3px solid #ff2625",
+            color: "#191919",
+            borderBottom: "3px solid #f15025",
           }}
         >
           Home
@@ -34,7 +34,8 @@ const Navbar = () => {
           href="#exercises"
           style={{
             textDecoration: "none",
-            color: "#3a1212",
+            color: "#191919",
+            scrollBehavior: "smooth",
           }}
         >
           Exercises
